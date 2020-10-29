@@ -1,7 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="36969e8b-2040-472e-bf86-96f7308bb5c8" name="默认更改列表" comment="" />
+    <list default="true" id="36969e8b-2040-472e-bf86-96f7308bb5c8" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Student-management-system/code/SGS.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Blackjack (card game)/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Blackjack (card game)/code/手动/21..c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Blackjack (card game)/code/手动/21..dev" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Blackjack (card game)/code/手动/21..exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Blackjack (card game)/code/手动/21..layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Blackjack (card game)/code/手动/21..o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Blackjack (card game)/code/手动/Makefile.win" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Blackjack (card game)/code/手动/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Blackjack (card game)/code/手动/main.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Blackjack (card game)/code/手动/mycodes.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Blackjack (card game)/code/手动/mycodes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Blackjack (card game)/code/手动/mycodes.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Blackjack (card game)/code/手动/twentyone.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Blackjack (card game)/code/手动/twentyone.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Blackjack (card game)/code/手动/twentyone.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Blackjack (card game)/code/自动/21.（自动）.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Blackjack (card game)/code/自动/21.（自动）.dev" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Blackjack (card game)/code/自动/21.（自动）.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Blackjack (card game)/code/自动/21.（自动）.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Blackjack (card game)/code/自动/21.（自动）.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Blackjack (card game)/code/自动/Makefile.win" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Blackjack (card game)/code/自动/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Blackjack (card game)/code/自动/main.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Blackjack (card game)/code/自动/mycodes.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Blackjack (card game)/code/自动/mycodes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Blackjack (card game)/code/自动/mycodes.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Blackjack (card game)/code/自动/twentyone.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Blackjack (card game)/code/自动/twentyone.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Blackjack (card game)/code/自动/twentyone.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Blackjack (card game)/code/规则.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Resource-sharing-website/code/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Resource-sharing-website/code/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,7 +64,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="ProjectId" id="1YQJhkIoquqrjVa0d22bz1Vixw0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -37,12 +76,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Java8/OOSAD" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
@@ -256,6 +296,7 @@
       <workItem from="1597667090650" duration="31000" />
       <workItem from="1602663700578" duration="133000" />
       <workItem from="1602722711011" duration="154000" />
+      <workItem from="1603966449277" duration="597000" />
     </task>
     <servers />
   </component>
@@ -263,10 +304,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="903" y="175" key="FileChooserDialogImpl" timestamp="1602722854335">
+    <state x="903" y="175" key="FileChooserDialogImpl" timestamp="1603966775256">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="903" y="175" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602722854335" />
+    <state x="903" y="175" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1603966775256" />
     <state width="1493" height="138" key="GridCell.Tab.0.bottom" timestamp="1602663833186">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -283,9 +324,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="138" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602663833186" />
-    <state x="249" y="0" key="SettingsEditor" timestamp="1603965148071">
+    <state x="249" y="0" key="SettingsEditor" timestamp="1603966961716">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1603965148071" />
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1603966961716" />
   </component>
 </project>
