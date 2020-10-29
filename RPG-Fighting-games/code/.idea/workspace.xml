@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="36969e8b-2040-472e-bf86-96f7308bb5c8" name="默认更改列表" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YQJhkIoquqrjVa0d22bz1Vixw0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Study\Java8\OOSAD\src\RPG\V4\view\image" />
+      <recent name="D:\Study\Java8\OOSAD\src\RPG\V4\view" />
+      <recent name="D:\Study\Java8\OOSAD\src\RPG\V4\view\imaga" />
+      <recent name="D:\Study\Java8\OOSAD\src\pkg0424" />
+      <recent name="D:\Study\Java8\OOSAD\src\pkg0424\cafe" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Study\Java8\OOSAD\src\RPG\V4\view\image" />
+      <recent name="D:\Study\Java8\OOSAD\src\RPG\V5" />
+      <recent name="D:\Study\Java8\OOSAD\src\RPG" />
+      <recent name="D:\Study\Java8\OOSAD\src\RPG\V2" />
+      <recent name="D:\Study\Java8\OOSAD\src\RPG\V1\Combat" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="RPG.V1" />
+      <recent name="RPG.V1.Controller" />
+      <recent name="RPG.V1.Combat" />
+      <recent name="终极项目.战斗游戏.game.role" />
+      <recent name="终极项目.战斗游戏.game.equip" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="终极项目.战斗游戏.game.equip" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.register">
+    <configuration name="main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RPG.V1.main" />
+      <module name="OOSAD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RPG.V1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RPG.V2.main" />
+      <module name="OOSAD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RPG.V2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RPG.V3.main" />
+      <module name="OOSAD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RPG.V3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="s18001020707.V4.model.main" />
+      <module name="OOSAD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="s18001020707.V4.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="s18001020707.V1.main" />
+      <module name="OOSAD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="s18001020707.V1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="s18001020707.V2.main" />
+      <module name="OOSAD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="s18001020707.V2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="s18001020707.V3.main" />
+      <module name="OOSAD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="s18001020707.V3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="register" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="s18001020707.V4.view.register" />
+      <module name="OOSAD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="s18001020707.V4.view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.register" />
+        <item itemvalue="Application.main" />
+        <item itemvalue="Application.main (3)" />
+        <item itemvalue="Application.main (1)" />
+        <item itemvalue="Application.main (2)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="36969e8b-2040-472e-bf86-96f7308bb5c8" name="默认更改列表" comment="" />
+      <created>1582869005200</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582869005200</updated>
+      <workItem from="1582869010429" duration="9966000" />
+      <workItem from="1583213613186" duration="11454000" />
+      <workItem from="1583301892420" duration="1245000" />
+      <workItem from="1583472022268" duration="10572000" />
+      <workItem from="1583912165988" duration="22373000" />
+      <workItem from="1583980133777" duration="1342000" />
+      <workItem from="1584077162391" duration="7524000" />
+      <workItem from="1584174561329" duration="28000" />
+      <workItem from="1584447931781" duration="3503000" />
+      <workItem from="1584518785714" duration="9556000" />
+      <workItem from="1584536664527" duration="2149000" />
+      <workItem from="1584584133425" duration="264000" />
+      <workItem from="1584681816941" duration="9075000" />
+      <workItem from="1585102343256" duration="44000" />
+      <workItem from="1585286479963" duration="9299000" />
+      <workItem from="1585634813017" duration="120000" />
+      <workItem from="1585663419067" duration="671000" />
+      <workItem from="1585707291804" duration="893000" />
+      <workItem from="1585718980973" duration="9558000" />
+      <workItem from="1585890795496" duration="7757000" />
+      <workItem from="1586242073726" duration="5350000" />
+      <workItem from="1586496347603" duration="6827000" />
+      <workItem from="1586935670594" duration="2947000" />
+      <workItem from="1587544024244" duration="2874000" />
+      <workItem from="1587608999391" duration="28000" />
+      <workItem from="1587713124159" duration="856000" />
+      <workItem from="1588042538251" duration="893000" />
+      <workItem from="1588572935020" duration="22233000" />
+      <workItem from="1588669121837" duration="1949000" />
+      <workItem from="1588671091041" duration="8655000" />
+      <workItem from="1588732156655" duration="37000" />
+      <workItem from="1588820842938" duration="4181000" />
+      <workItem from="1588915948608" duration="21576000" />
+      <workItem from="1589009697552" duration="13926000" />
+      <workItem from="1589090307873" duration="4806000" />
+      <workItem from="1589177322984" duration="23552000" />
+      <workItem from="1589212284418" duration="1498000" />
+      <workItem from="1589268008593" duration="33553000" />
+      <workItem from="1589341627605" duration="26632000" />
+      <workItem from="1589389444200" duration="931000" />
+      <workItem from="1589415830519" duration="10791000" />
+      <workItem from="1589519684133" duration="1963000" />
+      <workItem from="1589858434070" duration="53000" />
+      <workItem from="1589859381083" duration="19000" />
+      <workItem from="1592619805164" duration="102000" />
+      <workItem from="1597667090650" duration="31000" />
+      <workItem from="1602663700578" duration="133000" />
+      <workItem from="1602722711011" duration="154000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="903" y="175" key="FileChooserDialogImpl" timestamp="1602722854335">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="903" y="175" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602722854335" />
+    <state width="1493" height="138" key="GridCell.Tab.0.bottom" timestamp="1602663833186">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="138" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602663833186" />
+    <state width="1493" height="138" key="GridCell.Tab.0.center" timestamp="1602663833186">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="138" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602663833186" />
+    <state width="1493" height="138" key="GridCell.Tab.0.left" timestamp="1602663833186">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="138" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602663833186" />
+    <state width="1493" height="138" key="GridCell.Tab.0.right" timestamp="1602663833186">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="138" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602663833186" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1603965148071">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1603965148071" />
+  </component>
+</project>
