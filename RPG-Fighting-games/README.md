@@ -1,4 +1,6 @@
-# 基于JAVA GUI 使用十种设计模式开发的小游戏，游戏逻辑完善，有自己的装备系统、战斗系统以及成就系统等。
+# RPG-Fighting-games
+## RPG战斗小游戏(设计模式)
+- 基于JAVA GUI 使用十种设计模式开发的小游戏，游戏逻辑完善，有自己的装备系统、战斗系统以及成就系统等。
 
 [完整版代码](https://github.com/shiguanghai/University-projects/tree/master/RPG-Fighting-games/code/src/s18001020707/V4)
 
