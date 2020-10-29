@@ -3,6 +3,8 @@
 
 - 个人资源分享网址(MVC架构) [Resource-sharing-website](https://github.com/shiguanghai/University-projects/tree/master/Resource-sharing-website) 2019年07月 - 2020年08月
 
+- 次元之声(Android) [Voice-of-dimension](https://github.com/shiguanghai/University-projects/tree/master/Voice-of-dimension) 2020年5月 - 2020年7月
+
 - RPG战斗小游戏(设计模式) [RPG-Fighting-games](https://github.com/shiguanghai/University-projects) 2020年04月 - 2020年05月
 
 - 二十一点(C 语言) [BlackJack-cardGame](https://github.com/shiguanghai/University-projects/tree/master/BlackJack-cardGame) 2019年06月 - 2019年08月
