@@ -1,0 +1,37 @@
+# Project: 21.（自动）
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe -D__DEBUG__
+CC       = gcc.exe -D__DEBUG__
+WINDRES  = windres.exe
+OBJ      = 21.（自动）.o main.o mycodes.o twentyone.o
+LINKOBJ  = 21.（自动）.o main.o mycodes.o twentyone.o
+LIBS     = -L"D:/Study/dev c++/Dev/Dev-Cpp/MinGW64/lib" -L"D:/Study/dev c++/Dev/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc -g3
+INCS     = -I"D:/Study/dev c++/Dev/Dev-Cpp/MinGW64/include" -I"D:/Study/dev c++/Dev/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Study/dev c++/Dev/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
+CXXINCS  = -I"D:/Study/dev c++/Dev/Dev-Cpp/MinGW64/include" -I"D:/Study/dev c++/Dev/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Study/dev c++/Dev/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Study/dev c++/Dev/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
+BIN      = 21.（自动）.exe
+CXXFLAGS = $(CXXINCS) -std=gnu99 -g3
+CFLAGS   = $(INCS) -std=gnu99 -g3
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CC) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+21.（自动）.o: 21.（自动）.c
+	$(CC) -c 21.（自动）.c -o 21.（自动）.o $(CFLAGS)
+
+main.o: main.c
+	$(CC) -c main.c -o main.o $(CFLAGS)
+
+mycodes.o: mycodes.c
+	$(CC) -c mycodes.c -o mycodes.o $(CFLAGS)
+
+twentyone.o: twentyone.c
+	$(CC) -c twentyone.c -o twentyone.o $(CFLAGS)
