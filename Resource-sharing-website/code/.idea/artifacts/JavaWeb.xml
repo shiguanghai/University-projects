@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="JavaWeb">
+    <output-path>$PROJECT_DIR$/out/artifacts/JavaWeb</output-path>
+    <root id="archive" name="JavaWeb.war">
+      <element id="javaee-facet-resources" facet="shiguanghai/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="shiguanghai" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
