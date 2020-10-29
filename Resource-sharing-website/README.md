@@ -8,8 +8,11 @@
 ## （1）登录&注册界面
 	该页面实现用户登录功能，输入用户名密码等信息登录程序，使用ajax不刷新页面进行用户名和密码的简单验证。登录失败光标自动归为到删除的密码栏，回车键的判断增加交互体验来登录注册。登陆后点击视频会开放收藏功能。
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20201029170438835.png#pic_center)
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20201029170444198.png#pic_center)
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20201029170449454.png#pic_center)
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20201029170458280.png#pic_center)
 
 
