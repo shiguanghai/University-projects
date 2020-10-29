@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F2F2"
+    android:orientation="vertical"
+    tools:context=".WoShezhi">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.8"
+        android:background="#FB7299">
+
+        <ImageButton
+            android:id="@+id/shezhi_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:maxWidth="30dp"
+            android:maxHeight="30dp"
+            android:background="@android:color/transparent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/back"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="30dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="56px"
+            android:text="设置"
+            android:gravity="center_vertical"
+            android:textColor="#333333"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="180dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"  />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="27.5"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="393dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dip"
+            android:background="@drawable/juxing">
+
+            <LinearLayout
+                android:id="@+id/layout_top"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dip"
+                android:paddingBottom="10dp"
+                android:paddingRight="10dip">
+
+                <TextView
+                    android:id="@+id/username"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="账户与安全"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_center"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout_top"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dip"
+                android:paddingBottom="10dp"
+                android:paddingRight="10dip">
+
+                <TextView
+                    android:id="@+id/password"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="分享设置"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="393dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dip"
+            android:background="@drawable/juxing">
+
+            <LinearLayout
+                android:id="@+id/layout_top1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dip"
+                android:paddingBottom="10dp"
+                android:paddingRight="10dip">
+
+                <TextView
+                    android:id="@+id/gnsz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="功能设置"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_center2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout_top1"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dip"
+                android:paddingBottom="10dp"
+                android:paddingRight="10dip">
+
+                <TextView
+                    android:id="@+id/yinsi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="隐私"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_center3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout_center2"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dip"
+                android:paddingBottom="10dp"
+                android:paddingRight="10dip">
+
+                <TextView
+                    android:id="@+id/tuijianxihao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="推荐喜好"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="393dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dip"
+            android:background="@drawable/juxing">
+
+            <LinearLayout
+                android:id="@+id/layout_top3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dip"
+                android:paddingBottom="10dp"
+                android:paddingRight="10dip">
+
+                <TextView
+                    android:id="@+id/yjfk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="意见反馈"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_center22"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout_top3"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dip"
+                android:paddingBottom="10dp"
+                android:paddingRight="10dip">
+
+                <TextView
+                    android:id="@+id/changjian"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="常见问题"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_center33"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout_center22"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dip"
+                android:paddingBottom="10dp"
+                android:paddingRight="10dip">
+
+                <TextView
+                    android:id="@+id/gycyzs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="关于时光海小屋"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="393dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dip"
+            android:background="@drawable/juxing">
+
+            <LinearLayout
+                android:id="@+id/layout_zuihou"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dip"
+                android:paddingBottom="10dp"
+                android:paddingRight="10dip">
+
+                <TextView
+                    android:id="@+id/qchc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="清除历史记录"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+
+            </LinearLayout>
+
+
+
+
+        </RelativeLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:background="#FB7299">
+
+            <TextView
+                android:id="@+id/tcdl"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:text="退出登录"
+                android:textColor="#FFFFFF"
+                android:textSize="26dp"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>

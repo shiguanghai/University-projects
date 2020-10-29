@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="red">#FF0000</color>
+    <color name="gray">#FF888888</color>
+    <color name="black">#000000</color>
+    <color name="textcolor_checked">#45C01A</color>
+    <color name="textcolor">#BEBEBE</color>
+    <color name="main_tab_bg">#F7F7F8</color>
+    <color name="login_button">#5D1012</color>
+    <color name="login_buton_focus">#B01E23</color>
+    <color name="sign_button">#EFEEEB</color>
+    <color name="sign_button_focus">#B01E23</color>
+    <color name="form_background">#E5E5E5</color>
+    <color name="page_background">#FFFFFF</color>
+    <color name="input_context">#AAAAAA</color>
+    <color name="button_font">#FFFFFF</color>
+    <color name="verify_button">#9Eb1D8</color>
+    <color name="verify_button_focus">#CCCCFF</color>
+    <color name="listview_divider_line">#EDD6BB</color>
+    <color name="listview_background">#FFFBDB</color>
+    <color name="before_input_context">#000000</color>
+    <color name="common_label">#000000</color>
+    <color name="listview_item_selected">#000000</color>
+</resources>

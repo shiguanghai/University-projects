@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tiezi_Ouni">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2.8"
+            android:background="#FB7299">
+
+            <ImageButton
+                android:id="@+id/ouni_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:maxWidth="30dp"
+                android:maxHeight="30dp"
+                android:background="@android:color/transparent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/back"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="30dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="25.5"
+            android:scrollbars="none"
+            android:fillViewport="true"
+            android:background="#F2F2F2">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="#FFFFFF">
+
+                    <TextView
+                        android:text="安静||来读句子吧 我想听你温柔的声音"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal"
+                        android:textSize="54px"
+                        android:textColor="#333333"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="360dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"/>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_marginTop="30dp"
+                        android:layout_width="360dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center">
+
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:src="@drawable/yonghu02"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="0dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:text="安静欧尼"
+                            android:textColor="#333333"
+                            android:textSize="36px"
+                            android:textStyle="bold"
+                            android:layout_marginStart="80dp"
+                            android:layout_marginTop="5dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="三小时前"
+                            android:textColor="#999999"
+                            android:textSize="22px"
+                            android:layout_marginStart="80dp"
+                            android:layout_marginTop="30dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"/>
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/louzhu"
+                            android:layout_marginStart="150dp"
+                            android:layout_marginTop="4dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"/>
+
+                        <ImageButton
+                            android:id="@+id/ouni_guanzhu"
+                            android:tag="unselect"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:adjustViewBounds="true"
+                            android:maxWidth="30dp"
+                            android:maxHeight="30dp"
+                            android:scaleType="centerCrop"
+                            android:background="@android:color/transparent"
+                            android:layout_marginStart="310dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/guanzhu_xin_0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"/>
+
+
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                    <TextView
+                        android:text="      做一个温柔的人\n      每天积极又向上\n\n      我真是太喜欢积极的句子和温柔的人了\n      我想听你用最温柔的语调\n      读出下面的句子\n\n      我很期待"
+                        android:textSize="44px"
+                        android:textColor="#333333"
+                        android:layout_marginTop="20dp"
+                        android:layout_width="360dp"
+                        android:layout_height="180dp"
+                        android:layout_gravity="center"/>
+
+                    <ImageView
+                        android:id="@+id/tiezi_img1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:adjustViewBounds="true"
+                        android:maxWidth="360dp"
+                        android:src="@drawable/tiezi_img1" />
+
+                    <ImageView
+                        android:id="@+id/tiezi_img2"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:adjustViewBounds="true"
+                        android:maxWidth="360dp"
+                        android:src="@drawable/tiezi_img2" />
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_marginTop="20dp"
+                        android:layout_width="360dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center">
+
+                        <LinearLayout
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="18dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="来自"
+                                android:textColor="#AEAEAE"
+                                android:textSize="32px" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="配音/声控"
+                                android:textColor="#0033CC"
+                                android:textSize="32px" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="区"
+                                android:textColor="#AEAEAE"
+                                android:textSize="32px" />
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="配音/声控"
+                            android:textSize="28px"
+                            android:textColor="#0033CC"
+                            android:background="@drawable/juxing_ouni"
+                            android:layout_marginStart="230dp"
+                            android:layout_marginTop="19dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"/>
+
+                        <TextView
+                            android:layout_width="30dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="句子"
+                            android:textSize="28px"
+                            android:textColor="#0033CC"
+                            android:background="@drawable/juxing_ouni"
+                            android:layout_marginStart="300dp"
+                            android:layout_marginTop="19dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"/>
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="380dp"
+                            android:layout_height="22dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="50dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <ImageButton
+                                android:id="@+id/shoucang01"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
+                                android:maxWidth="53px"
+                                android:maxHeight="53px"
+                                android:scaleType="centerCrop"
+                                android:background="@android:color/transparent"
+                                android:layout_marginBottom="2dp"
+                                android:layout_marginStart="200dp"
+                                android:src="@drawable/shoucang_0"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintBottom_toBottomOf="parent"/>
+
+                            <TextView
+                                android:id="@+id/shoucang01_num"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="20"
+                                android:textSize="20px"
+                                android:textColor="#333333"
+                                android:textStyle="normal"
+                                android:layout_marginBottom="5dp"
+                                android:layout_marginStart="222dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintBottom_toBottomOf="parent"/>
+
+                            <ImageButton
+                                android:id="@+id/dianzan01"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
+                                android:maxWidth="53px"
+                                android:maxHeight="53px"
+                                android:scaleType="centerCrop"
+                                android:background="@android:color/transparent"
+                                android:layout_marginBottom="2dp"
+                                android:layout_marginStart="250dp"
+                                android:src="@drawable/dianzan_0"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintBottom_toBottomOf="parent"/>
+
+                            <TextView
+                                android:id="@+id/dianzan01_num"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="14"
+                                android:textSize="20px"
+                                android:textColor="#333333"
+                                android:textStyle="normal"
+                                android:layout_marginBottom="5dp"
+                                android:layout_marginStart="270dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintBottom_toBottomOf="parent"/>
+
+                            <ImageButton
+                                android:id="@+id/fenxaing01"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
+                                android:maxWidth="48px"
+                                android:maxHeight="48px"
+                                android:scaleType="centerCrop"
+                                android:background="@android:color/transparent"
+                                android:layout_marginBottom="2dp"
+                                android:layout_marginEnd="60dp"
+                                android:src="@drawable/fenxaing_0"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintBottom_toBottomOf="parent"/>
+
+                            <TextView
+                                android:id="@+id/fenxaing01_num"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="5"
+                                android:textSize="20px"
+                                android:textColor="#333333"
+                                android:textStyle="normal"
+                                android:layout_marginBottom="5dp"
+                                android:layout_marginEnd="50dp"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintBottom_toBottomOf="parent"/>
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#FFFFFF"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp">
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="360dp"
+                        android:layout_height="30dp"
+                        android:text="精彩回复"
+                        android:gravity="center_vertical"
+                        android:textStyle="bold"
+                        android:textColor="#333333"
+                        android:textSize="48px"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:gravity="center_horizontal"
+                        android:text="暂无回复..."
+                        android:textSize="70px"
+                        android:textColor="#E4E4E4"
+                        android:layout_marginTop="45dp"
+                        android:layout_width="300dp"
+                        android:layout_height="130dp"
+                        android:layout_gravity="center"/>
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            android:background="#FFFFFF">
+
+            <FrameLayout
+                android:layout_width="240dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_width="180dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/button_shape"/>
+
+                <EditText
+                    android:layout_marginLeft="42dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@null"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="32px"
+                    android:inputType="text"
+                    android:hint="我也说一句..."/>
+
+            </FrameLayout>
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:maxWidth="30dp"
+                android:maxHeight="30dp"
+                android:src="@drawable/dianzan_0"/>
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:maxWidth="30dp"
+                android:maxHeight="30dp"
+                android:src="@drawable/shoucang_0"/>
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:maxWidth="30dp"
+                android:maxHeight="30dp"
+                android:src="@drawable/fenxaing_0"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</FrameLayout>

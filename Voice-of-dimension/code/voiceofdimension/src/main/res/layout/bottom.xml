@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#FAFAFA">
+
+    <LinearLayout
+        android:id="@+id/tab_shouye"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/shouye"
+            android:tag="unselect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:maxWidth="25dp"
+            android:maxHeight="25dp"
+            android:scaleType="centerCrop"
+            android:background="@android:color/transparent"
+            android:clickable="false"
+            android:src="@drawable/shouye_1" />
+
+        <TextView
+            android:id="@+id/shouye_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="首页"
+            android:textColor="#696969"
+            android:textSize="24px"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tab_bankuai"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/bankuai"
+            android:tag="unselect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:maxWidth="25dp"
+            android:maxHeight="25dp"
+            android:scaleType="centerCrop"
+            android:background="@android:color/transparent"
+            android:clickable="false"
+            android:src="@drawable/bankuai_0" />
+
+        <TextView
+            android:id="@+id/bankuai_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="版块"
+            android:textColor="#696969"
+            android:textSize="24px"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tab_tianjia"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/tianjia"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/tianjia" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tab_xiaoxi"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/xiaoxi"
+            android:tag="unselect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:maxWidth="25dp"
+            android:maxHeight="25dp"
+            android:scaleType="centerCrop"
+            android:background="@android:color/transparent"
+            android:clickable="false"
+            android:src="@drawable/xiaoxi_0" />
+
+        <TextView
+            android:id="@+id/xiaoxi_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="消息"
+            android:textColor="#696969"
+            android:textSize="24px"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tab_wo"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/wo"
+            android:tag="unselect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:maxWidth="30dp"
+            android:maxHeight="25dp"
+            android:scaleType="centerCrop"
+            android:background="@android:color/transparent"
+            android:clickable="false"
+            android:src="@drawable/wo_0" />
+
+        <TextView
+            android:id="@+id/wo_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我"
+            android:textColor="#696969"
+            android:textSize="24px"/>
+
+    </LinearLayout>
+
+</LinearLayout>

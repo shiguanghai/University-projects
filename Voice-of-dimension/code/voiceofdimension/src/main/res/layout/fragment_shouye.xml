@@ -1,0 +1,942 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Shouye">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="670dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2.8"
+            android:background="#FB7299"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20px"
+                    android:layout_marginLeft="20px"
+                    android:layout_marginTop="45px"
+                    android:src="@drawable/sousuokuang" />
+
+                <EditText
+                    android:id="@+id/sousuokuang_text"
+                    android:layout_marginLeft="100px"
+                    android:layout_marginRight="120px"
+                    android:layout_marginTop="76px"
+                    android:layout_marginBottom="5px"
+                    android:drawableLeft="@drawable/sousuo"
+                    android:background="@null"
+                    android:drawablePadding="5px"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="30px"
+                    android:inputType="text"
+                    android:hint="搜索内容、视频、用户"/>
+
+
+
+            </FrameLayout>
+        </LinearLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#FAFAFA">
+
+
+            <ImageButton
+                android:id="@+id/guanzhu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:maxWidth="89px"
+                android:maxHeight="59px"
+                android:scaleType="centerCrop"
+                android:src="@drawable/guanzhu_1"
+                android:background="@android:color/transparent"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="18dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/tuijian"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:maxWidth="89px"
+                android:maxHeight="59px"
+                android:scaleType="centerCrop"
+                android:src="@drawable/tuijian_0"
+                android:background="@android:color/transparent"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="65dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/fengexian1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fengexian"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="0dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6.9"
+            android:background="#FAFAFA" >
+
+            <FrameLayout
+                android:layout_width="380dp"
+                android:layout_height="154dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginStart="15dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ViewFlipper
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:context=".Home"
+                    android:id="@+id/lunbotu" >
+
+                    <ImageView
+                        android:id="@+id/lunbotu1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/lunbotu1" />
+
+                    <ImageView
+                        android:id="@+id/lunbotu2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/lunbotu2" />
+
+                    <ImageView
+                        android:id="@+id/lunbotu3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/lunbotu3" />
+                </ViewFlipper>
+
+            </FrameLayout>
+
+            <ImageView
+                android:id="@+id/fengexian2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fengexian"
+                android:layout_marginTop="158dp"
+                android:layout_marginStart="0dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+            android:id="@+id/shouye_zhanshi"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="17.6"
+            android:background="#D7D7D7"
+            android:orientation="vertical">
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+
+
+                <FrameLayout
+                    android:layout_width="410dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginStart="0dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="135dp"
+                        android:background="#F2F2F2"/>
+                    <TextView
+                        android:layout_width="380dp"
+                        android:layout_height="135dp"
+                        android:background="#FFFFFF"
+                        android:layout_gravity="center_horizontal"/>
+
+                    <LinearLayout
+                        android:layout_width="380dp"
+                        android:layout_height="135dp"
+                        android:orientation="vertical"
+                        android:layout_gravity="center_horizontal">
+
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="380dp"
+                            android:layout_height="113dp"
+                            android:layout_gravity="center_horizontal">
+
+
+                            <ImageView
+                                android:id="@+id/yonghu01_touxiang"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
+                                android:maxWidth="85px"
+                                android:maxHeight="85px"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginStart="10dp"
+                                android:src="@drawable/yonghu01"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"/>
+
+                            <TextView
+                                android:id="@+id/yonghu01_name"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="不良グ"
+                                android:textSize="28px"
+                                android:textColor="#333333"
+                                android:layout_marginTop="15dp"
+                                android:layout_marginStart="50dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"/>
+
+                            <ImageView
+                                android:id="@+id/yonghu01_fabiao"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
+                                android:maxWidth="190px"
+                                android:maxHeight="170px"
+                                android:background="#797979"
+                                android:padding="1px"
+                                android:src="@drawable/fabiao01"
+                                android:layout_marginTop="48dp"
+                                android:layout_marginStart="18dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"/>
+
+                            <TextView
+                                android:id="@+id/fabiao01_time"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="刚刚"
+                                android:textSize="18px"
+                                android:textColor="#666666"
+                                android:layout_marginTop="15dp"
+                                android:layout_marginEnd="20dp"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"/>
+
+                            <TextView
+                                android:id="@+id/fabiao01_title_1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="农药选手，逼死声优的声音你值得拥有"
+                                android:textSize="28px"
+                                android:textColor="#666666"
+                                android:textStyle="bold"
+                                android:layout_marginTop="48dp"
+                                android:layout_marginStart="120dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"/>
+
+                            <TextView
+                                android:id="@+id/fabiao01_title_2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="配音/声控      王者荣耀"
+                                android:textSize="24px"
+                                android:textColor="#333333"
+                                android:textStyle="normal"
+                                android:layout_marginTop="62dp"
+                                android:layout_marginStart="120dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"/>
+
+                            <TextView
+                                android:id="@+id/fabiao01_content"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="召唤师的声音  ！  R U  ready ! ! !"
+                                android:textSize="18px"
+                                android:textColor="#333333"
+                                android:textStyle="normal"
+                                android:layout_marginTop="78dp"
+                                android:layout_marginStart="120dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"/>
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="380dp"
+                            android:layout_height="22dp"
+                            android:layout_gravity="center_horizontal">
+
+                            <ImageButton
+                                android:id="@+id/shoucang01"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
+                                android:maxWidth="53px"
+                                android:maxHeight="53px"
+                                android:scaleType="centerCrop"
+                                android:background="@android:color/transparent"
+                                android:layout_marginBottom="2dp"
+                                android:layout_marginStart="180dp"
+                                android:src="@drawable/shoucang_0"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintBottom_toBottomOf="parent"/>
+
+                            <TextView
+                                android:id="@+id/shoucang01_num"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="20"
+                                android:textSize="20px"
+                                android:textColor="#333333"
+                                android:textStyle="normal"
+                                android:layout_marginBottom="5dp"
+                                android:layout_marginStart="202dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintBottom_toBottomOf="parent"/>
+
+                            <ImageButton
+                                android:id="@+id/pinglun01"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
+                                android:maxWidth="53px"
+                                android:maxHeight="53px"
+                                android:scaleType="centerCrop"
+                                android:background="@android:color/transparent"
+                                android:layout_marginBottom="2dp"
+                                android:layout_marginStart="230dp"
+                                android:src="@drawable/pinglun_0"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintBottom_toBottomOf="parent"/>
+
+                            <TextView
+                                android:id="@+id/pinglun01_num"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="128"
+                                android:textSize="20px"
+                                android:textColor="#333333"
+                                android:textStyle="normal"
+                                android:layout_marginBottom="5dp"
+                                android:layout_marginStart="252dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintBottom_toBottomOf="parent"/>
+
+                            <ImageButton
+                                android:id="@+id/dianzan01"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
+                                android:maxWidth="53px"
+                                android:maxHeight="53px"
+                                android:scaleType="centerCrop"
+                                android:background="@android:color/transparent"
+                                android:layout_marginBottom="2dp"
+                                android:layout_marginStart="280dp"
+                                android:src="@drawable/dianzan_0"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintBottom_toBottomOf="parent"/>
+
+                            <TextView
+                                android:id="@+id/dianzan01_num"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="14"
+                                android:textSize="20px"
+                                android:textColor="#333333"
+                                android:textStyle="normal"
+                                android:layout_marginBottom="5dp"
+                                android:layout_marginStart="300dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintBottom_toBottomOf="parent"/>
+
+                            <ImageButton
+                                android:id="@+id/fenxaing01"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
+                                android:maxWidth="53px"
+                                android:maxHeight="53px"
+                                android:scaleType="centerCrop"
+                                android:background="@android:color/transparent"
+                                android:layout_marginBottom="2dp"
+                                android:layout_marginEnd="25dp"
+                                android:src="@drawable/fenxaing_0"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintBottom_toBottomOf="parent"/>
+
+                            <TextView
+                                android:id="@+id/fenxaing01_num"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="5"
+                                android:textSize="20px"
+                                android:textColor="#333333"
+                                android:textStyle="normal"
+                                android:layout_marginBottom="5dp"
+                                android:layout_marginEnd="14dp"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintBottom_toBottomOf="parent"/>
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    </LinearLayout>
+
+                </FrameLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+
+
+                <FrameLayout
+                    android:layout_width="410dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginStart="0dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="135dp"
+                        android:background="#F2F2F2"/>
+                    <TextView
+                        android:layout_width="380dp"
+                        android:layout_height="135dp"
+                        android:background="#FFFFFF"
+                        android:layout_gravity="center_horizontal"/>
+
+                    <LinearLayout
+                        android:layout_width="380dp"
+                        android:layout_height="135dp"
+                        android:orientation="vertical"
+                        android:layout_gravity="center_horizontal">
+
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/shouye_guanzhu_2"
+                            android:layout_width="380dp"
+                            android:layout_height="113dp"
+                            android:layout_gravity="center_horizontal">
+
+
+                            <ImageView
+                                android:id="@+id/yonghu02_touxiang"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
+                                android:maxWidth="85px"
+                                android:maxHeight="85px"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginStart="10dp"
+                                android:src="@drawable/yonghu02"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"/>
+
+                            <TextView
+                                android:id="@+id/yonghu02_name"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="安静欧尼"
+                                android:textSize="28px"
+                                android:textColor="#333333"
+                                android:layout_marginTop="15dp"
+                                android:layout_marginStart="50dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"/>
+
+                            <ImageView
+                                android:id="@+id/yonghu02_fabiao"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
+                                android:maxWidth="190px"
+                                android:maxHeight="170px"
+                                android:background="#797979"
+                                android:padding="1px"
+                                android:src="@drawable/fabiao02"
+                                android:layout_marginTop="48dp"
+                                android:layout_marginStart="18dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"/>
+
+                            <TextView
+                                android:id="@+id/fabiao02_time"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="3小时前"
+                                android:textSize="18px"
+                                android:textColor="#666666"
+                                android:layout_marginTop="15dp"
+                                android:layout_marginEnd="20dp"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"/>
+
+                            <TextView
+                                android:id="@+id/fabiao02_title_1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="安静||来读句子吧 我想听你温柔的声音"
+                                android:textSize="28px"
+                                android:textColor="#666666"
+                                android:textStyle="bold"
+                                android:layout_marginTop="48dp"
+                                android:layout_marginStart="120dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"/>
+
+                            <TextView
+                                android:id="@+id/fabiao02_title_2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="配音/声控 句子"
+                                android:textSize="24px"
+                                android:textColor="#333333"
+                                android:textStyle="normal"
+                                android:layout_marginTop="62dp"
+                                android:layout_marginStart="120dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"/>
+
+                            <TextView
+                                android:id="@+id/fabiao02_content"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="做一个温柔的人每天积极又向上我真是太喜欢积极的句子和温柔的\n人了我想听你用最温柔的语调读出下面的句子我很期待"
+                                android:textSize="18px"
+                                android:textColor="#333333"
+                                android:textStyle="normal"
+                                android:layout_marginTop="78dp"
+                                android:layout_marginStart="120dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"/>
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="380dp"
+                            android:layout_height="22dp"
+                            android:layout_gravity="center_horizontal">
+
+                            <ImageButton
+                                android:id="@+id/shoucang02"
+                                android:tag="unselect"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
+                                android:maxWidth="53px"
+                                android:maxHeight="53px"
+                                android:scaleType="centerCrop"
+                                android:background="@android:color/transparent"
+                                android:layout_marginBottom="2dp"
+                                android:layout_marginStart="180dp"
+                                android:src="@drawable/shoucang_0"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintBottom_toBottomOf="parent"/>
+
+                            <TextView
+                                android:id="@+id/shoucang02_num"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="56"
+                                android:textSize="20px"
+                                android:textColor="#333333"
+                                android:textStyle="normal"
+                                android:layout_marginBottom="5dp"
+                                android:layout_marginStart="202dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintBottom_toBottomOf="parent"/>
+
+                            <ImageButton
+                                android:id="@+id/pinglun02"
+                                android:tag="unselect"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
+                                android:maxWidth="53px"
+                                android:maxHeight="53px"
+                                android:scaleType="centerCrop"
+                                android:background="@android:color/transparent"
+                                android:layout_marginBottom="2dp"
+                                android:layout_marginStart="230dp"
+                                android:src="@drawable/pinglun_0"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintBottom_toBottomOf="parent"/>
+
+                            <TextView
+                                android:id="@+id/pinglun02_num"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="1152"
+                                android:textSize="20px"
+                                android:textColor="#333333"
+                                android:textStyle="normal"
+                                android:layout_marginBottom="5dp"
+                                android:layout_marginStart="252dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintBottom_toBottomOf="parent"/>
+
+                            <ImageButton
+                                android:id="@+id/dianzan02"
+                                android:tag="unselect"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
+                                android:maxWidth="53px"
+                                android:maxHeight="53px"
+                                android:scaleType="centerCrop"
+                                android:background="@android:color/transparent"
+                                android:layout_marginBottom="2dp"
+                                android:layout_marginStart="280dp"
+                                android:src="@drawable/dianzan_0"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintBottom_toBottomOf="parent"/>
+
+                            <TextView
+                                android:id="@+id/dianzan02_num"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="121"
+                                android:textSize="20px"
+                                android:textColor="#333333"
+                                android:textStyle="normal"
+                                android:layout_marginBottom="5dp"
+                                android:layout_marginStart="300dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintBottom_toBottomOf="parent"/>
+
+                            <ImageButton
+                                android:id="@+id/fenxiang02"
+                                android:tag="unselect"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
+                                android:maxWidth="53px"
+                                android:maxHeight="53px"
+                                android:scaleType="centerCrop"
+                                android:background="@android:color/transparent"
+                                android:layout_marginBottom="2dp"
+                                android:layout_marginEnd="25dp"
+                                android:src="@drawable/fenxaing_0"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintBottom_toBottomOf="parent"/>
+
+                            <TextView
+                                android:id="@+id/fenxaing02_num"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="87"
+                                android:textSize="20px"
+                                android:textColor="#333333"
+                                android:textStyle="normal"
+                                android:layout_marginBottom="5dp"
+                                android:layout_marginEnd="14dp"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintBottom_toBottomOf="parent"/>
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    </LinearLayout>
+
+                </FrameLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+
+
+                <FrameLayout
+                    android:layout_width="410dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginStart="0dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="135dp"
+                        android:background="#F2F2F2"/>
+                    <TextView
+                        android:layout_width="380dp"
+                        android:layout_height="135dp"
+                        android:background="#FFFFFF"
+                        android:layout_gravity="center_horizontal"/>
+
+                    <LinearLayout
+                        android:layout_width="380dp"
+                        android:layout_height="135dp"
+                        android:orientation="vertical"
+                        android:layout_gravity="center_horizontal">
+
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="380dp"
+                            android:layout_height="113dp"
+                            android:layout_gravity="center_horizontal">
+
+
+                            <ImageView
+                                android:id="@+id/yonghu03_touxiang"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
+                                android:maxWidth="85px"
+                                android:maxHeight="85px"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginStart="10dp"
+                                android:src="@drawable/yonghu03"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"/>
+
+                            <TextView
+                                android:id="@+id/yonghu03_name"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="禇鹤fighting"
+                                android:textSize="28px"
+                                android:textColor="#333333"
+                                android:layout_marginTop="15dp"
+                                android:layout_marginStart="50dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"/>
+
+                            <ImageView
+                                android:id="@+id/yonghu03_fabiao"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
+                                android:maxWidth="190px"
+                                android:maxHeight="170px"
+                                android:background="#797979"
+                                android:padding="1px"
+                                android:src="@drawable/fabiao03"
+                                android:layout_marginTop="48dp"
+                                android:layout_marginStart="18dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"/>
+
+                            <TextView
+                                android:id="@+id/fabiao03_time"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="3天前"
+                                android:textSize="18px"
+                                android:textColor="#666666"
+                                android:layout_marginTop="15dp"
+                                android:layout_marginEnd="20dp"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"/>
+
+                            <TextView
+                                android:id="@+id/fabiao03_title_1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="《九万字》当坊间最善舞的女儿死..."
+                                android:textSize="28px"
+                                android:textColor="#666666"
+                                android:textStyle="bold"
+                                android:layout_marginTop="48dp"
+                                android:layout_marginStart="120dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"/>
+
+                            <TextView
+                                android:id="@+id/fabiao03_title_2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="古风/汉服 配音/声控 尬歌 古风歌曲"
+                                android:textSize="24px"
+                                android:textColor="#333333"
+                                android:textStyle="normal"
+                                android:layout_marginTop="62dp"
+                                android:layout_marginStart="120dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"/>
+
+                            <TextView
+                                android:id="@+id/fabiao03_content"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="嘤嘤嘤，唱的真辣鸡QAQ。但是真的炒鸡炒鸡喜欢萧忆情啊，我可\n爱的仙儿，喜欢到，他唱什么我就想唱什么的地步了。可惜仙儿就\n算本体是一只鹅也唱的比我好听。"
+                                android:textSize="18px"
+                                android:textColor="#333333"
+                                android:textStyle="normal"
+                                android:layout_marginTop="78dp"
+                                android:layout_marginStart="120dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"/>
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="380dp"
+                            android:layout_height="22dp"
+                            android:layout_gravity="center_horizontal">
+
+                            <ImageButton
+                                android:id="@+id/shoucang03"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
+                                android:maxWidth="53px"
+                                android:maxHeight="53px"
+                                android:scaleType="centerCrop"
+                                android:background="@android:color/transparent"
+                                android:layout_marginBottom="2dp"
+                                android:layout_marginStart="180dp"
+                                android:src="@drawable/shoucang_0"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintBottom_toBottomOf="parent"/>
+
+                            <TextView
+                                android:id="@+id/shoucang03_num"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="0"
+                                android:textSize="20px"
+                                android:textColor="#333333"
+                                android:textStyle="normal"
+                                android:layout_marginBottom="5dp"
+                                android:layout_marginStart="202dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintBottom_toBottomOf="parent"/>
+
+                            <ImageButton
+                                android:id="@+id/pinglun03"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
+                                android:maxWidth="53px"
+                                android:maxHeight="53px"
+                                android:scaleType="centerCrop"
+                                android:background="@android:color/transparent"
+                                android:layout_marginBottom="2dp"
+                                android:layout_marginStart="230dp"
+                                android:src="@drawable/pinglun_0"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintBottom_toBottomOf="parent"/>
+
+                            <TextView
+                                android:id="@+id/pinglun03_num"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="19"
+                                android:textSize="20px"
+                                android:textColor="#333333"
+                                android:textStyle="normal"
+                                android:layout_marginBottom="5dp"
+                                android:layout_marginStart="252dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintBottom_toBottomOf="parent"/>
+
+                            <ImageButton
+                                android:id="@+id/dianzan03"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
+                                android:maxWidth="53px"
+                                android:maxHeight="53px"
+                                android:scaleType="centerCrop"
+                                android:background="@android:color/transparent"
+                                android:layout_marginBottom="2dp"
+                                android:layout_marginStart="280dp"
+                                android:src="@drawable/dianzan_0"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintBottom_toBottomOf="parent"/>
+
+                            <TextView
+                                android:id="@+id/dianzan03_num"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="5"
+                                android:textSize="20px"
+                                android:textColor="#333333"
+                                android:textStyle="normal"
+                                android:layout_marginBottom="5dp"
+                                android:layout_marginStart="300dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintBottom_toBottomOf="parent"/>
+
+                            <ImageButton
+                                android:id="@+id/fenxaing03"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
+                                android:maxWidth="53px"
+                                android:maxHeight="53px"
+                                android:scaleType="centerCrop"
+                                android:background="@android:color/transparent"
+                                android:layout_marginBottom="2dp"
+                                android:layout_marginEnd="25dp"
+                                android:src="@drawable/fenxaing_0"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintBottom_toBottomOf="parent"/>
+
+                            <TextView
+                                android:id="@+id/fenxaing03_num"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="4"
+                                android:textSize="20px"
+                                android:textColor="#333333"
+                                android:textStyle="normal"
+                                android:layout_marginBottom="5dp"
+                                android:layout_marginEnd="14dp"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintBottom_toBottomOf="parent"/>
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    </LinearLayout>
+
+                </FrameLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+</FrameLayout>

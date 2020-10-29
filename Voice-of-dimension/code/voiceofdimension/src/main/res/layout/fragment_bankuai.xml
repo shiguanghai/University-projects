@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="false"
+    tools:context=".Bankuai">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="670dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2.8"
+            android:background="#FB7299"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20px"
+                    android:layout_marginLeft="20px"
+                    android:layout_marginTop="45px"
+                    android:src="@drawable/sousuokuang" />
+
+                <EditText
+                    android:id="@+id/sousuokuang_text"
+                    android:layout_marginLeft="100px"
+                    android:layout_marginRight="120px"
+                    android:layout_marginTop="76px"
+                    android:layout_marginBottom="5px"
+                    android:drawableLeft="@drawable/sousuo"
+                    android:background="@null"
+                    android:drawablePadding="5px"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="30px"
+                    android:inputType="text"
+                    android:hint="搜索内容、视频、用户"/>
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bankuai_banqu"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6.2"
+            android:background="#FFFFFF"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="380dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:background="#FFFFFF"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/tab_pia"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/pia_img"
+                        android:background="@android:color/transparent"
+                        android:scaleType="centerCrop"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:maxWidth="45dp"
+                        android:maxHeight="45dp"
+                        android:src="@drawable/pia" />
+
+                    <TextView
+                        android:id="@+id/PiaText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="数码"
+                        android:textColor="@color/black" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab_qing"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/qing_img"
+                        android:background="@android:color/transparent"
+                        android:scaleType="centerCrop"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:maxWidth="45dp"
+                        android:maxHeight="45dp"
+                        android:src="@drawable/qingganshuo" />
+
+                    <TextView
+                        android:id="@+id/QingText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="搞笑"
+                        android:textColor="@color/black" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/naodong"
+                        android:background="@android:color/transparent"
+                        android:scaleType="centerCrop"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:maxWidth="45dp"
+                        android:maxHeight="45dp"
+                        android:src="@drawable/naodong" />
+
+                    <TextView
+                        android:id="@+id/NaoText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="科普"
+                        android:textColor="@color/black" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/langdu"
+                        android:background="@android:color/transparent"
+                        android:scaleType="centerCrop"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:maxWidth="45dp"
+                        android:maxHeight="45dp"
+                        android:src="@drawable/langdu" />
+
+                    <TextView
+                        android:id="@+id/LangText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="科技"
+                        android:textColor="@color/black" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="380dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:background="#FFFFFF"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/tab_dong"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/dong_img"
+                        android:background="@android:color/transparent"
+                        android:scaleType="centerCrop"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:maxWidth="45dp"
+                        android:maxHeight="45dp"
+                        android:src="@drawable/dongman" />
+
+                    <TextView
+                        android:id="@+id/DongText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="搞笑"
+                        android:textColor="@color/black" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/youxi"
+                        android:background="@android:color/transparent"
+                        android:scaleType="centerCrop"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:maxWidth="45dp"
+                        android:maxHeight="45dp"
+                        android:src="@drawable/youxi" />
+
+                    <TextView
+                        android:id="@+id/youText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="舞蹈"
+                        android:textColor="@color/black" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/yingshi"
+                        android:background="@android:color/transparent"
+                        android:scaleType="centerCrop"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:maxWidth="45dp"
+                        android:maxHeight="45dp"
+                        android:src="@drawable/yingshi" />
+
+                    <TextView
+                        android:id="@+id/yingText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="摄影"
+                        android:textColor="@color/black" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/zonghe"
+                        android:background="@android:color/transparent"
+                        android:scaleType="centerCrop"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:maxWidth="45dp"
+                        android:maxHeight="45dp"
+                        android:src="@drawable/zonghe" />
+
+                    <TextView
+                        android:id="@+id/zongText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="美食"
+                        android:textColor="@color/black" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/bankuai_daohang"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4.8"
+            android:background="#FFFFFF">
+
+            <Button
+                android:id="@+id/nbpb"
+                android:background="@drawable/button_shape"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:text="手机/平板"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/gfxx"
+                android:background="@drawable/button_shape"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="10dp"
+                android:text="电脑/装机"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/piaxi"
+                android:background="@drawable/button_shape"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="220dp"
+                android:layout_marginTop="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:text="影音" />
+
+            <Button
+                android:id="@+id/gf"
+                android:background="@drawable/button_shape"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:text="摄影" />
+
+            <Button
+                android:id="@+id/bjfh"
+                android:background="@drawable/button_shape"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="45dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:text="宅舞/街舞"/>
+
+            <Button
+                android:id="@+id/wyh"
+                android:background="@drawable/button_shape"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="45dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:text="明星舞蹈/中国舞/舞蹈综合"/>
+
+            <Button
+                android:id="@+id/zz"
+                android:background="@drawable/button_shape"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="80dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:text="生活" />
+
+            <Button
+                android:id="@+id/rm"
+                android:background="@drawable/button_shape"
+                android:layout_width="90dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="90dp"
+                android:layout_marginTop="80dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textColor="@color/red"
+                android:text="热门标签>" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/bankuai_yuyan"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:background="#FFFFFF">
+
+            <TextView
+                android:id="@+id/yy"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:text="语言:"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ScrollView
+                android:layout_width="320dp"
+                android:layout_height="23dp"
+                android:scrollbars="none"
+                android:fillViewport="true"
+                android:layout_marginStart="65dp"
+                android:layout_marginTop="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/yyqb"
+                        android:background="@drawable/button_shape"
+                        android:layout_width="50dp"
+                        android:layout_height="20dp"
+                        android:gravity="center"
+                        android:textSize="36px"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:text="全部" />
+                    <Button
+                        android:id="@+id/gy"
+                        android:background="@drawable/button_shape"
+                        android:layout_width="50dp"
+                        android:layout_height="20dp"
+                        android:gravity="center"
+                        android:textSize="36px"
+                        android:layout_marginStart="60dp"
+                        android:layout_marginTop="0dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:text="国语" />
+                    <Button
+                        android:id="@+id/uk"
+                        android:background="@drawable/button_shape"
+                        android:layout_width="50dp"
+                        android:layout_height="20dp"
+                        android:gravity="center"
+                        android:textSize="36px"
+                        android:layout_marginStart="120dp"
+                        android:layout_marginTop="0dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:text="英语"/>
+                    <Button
+                        android:id="@+id/yueyu"
+                        android:background="@drawable/button_shape"
+                        android:layout_width="50dp"
+                        android:layout_height="20dp"
+                        android:gravity="center"
+                        android:textSize="36px"
+                        android:layout_marginStart="180dp"
+                        android:layout_marginTop="0dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:text="粤语"/>
+                    <Button
+                        android:id="@+id/ry"
+                        android:background="@drawable/button_shape"
+                        android:layout_width="50dp"
+                        android:layout_height="20dp"
+                        android:gravity="center"
+                        android:textSize="36px"
+                        android:layout_marginStart="240dp"
+                        android:layout_marginTop="0dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:text="日语" />
+                    <Button
+                        android:id="@+id/qt"
+                        android:background="@drawable/button_shape"
+                        android:layout_width="80dp"
+                        android:layout_height="20dp"
+                        android:gravity="center"
+                        android:textSize="36px"
+                        android:layout_marginStart="300dp"
+                        android:layout_marginTop="0dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:text="其他语言" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </ScrollView>
+
+            <TextView
+                android:id="@+id/sx"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="40dp"
+                android:text="筛选:"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <Button
+                android:id="@+id/sxqb"
+                android:background="@drawable/button_shape"
+                android:layout_width="50dp"
+                android:layout_height="20dp"
+                android:gravity="center"
+                android:textSize="36px"
+                android:layout_marginStart="65dp"
+                android:layout_marginBottom="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:text="全部" />
+            <Button
+                android:id="@+id/m"
+                android:background="@drawable/button_shape"
+                android:layout_width="65dp"
+                android:layout_height="20dp"
+                android:gravity="center"
+                android:textSize="36px"
+                android:layout_marginStart="125dp"
+                android:layout_marginBottom="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:text="最多点击"/>
+            <Button
+                android:id="@+id/w"
+                android:background="@drawable/button_shape"
+                android:layout_width="65dp"
+                android:layout_height="20dp"
+                android:gravity="center"
+                android:textSize="36px"
+                android:layout_marginStart="200dp"
+                android:layout_marginBottom="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:text="最新发布" />
+            <Button
+                android:id="@+id/hz"
+                android:background="@drawable/button_shape"
+                android:layout_width="65dp"
+                android:layout_height="20dp"
+                android:gravity="center"
+                android:textSize="36px"
+                android:layout_marginStart="275dp"
+                android:layout_marginBottom="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:text="最多收藏"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <com.example.voiceofdimension.SlideViewPager
+            android:id="@+id/bankuai_piaxi"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="11" />
+
+    </LinearLayout>
+
+</FrameLayout>

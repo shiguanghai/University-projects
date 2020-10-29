@@ -1,0 +1,2 @@
+include ':app', ':voiceofdimension'
+rootProject.name='Voice of dimension'
