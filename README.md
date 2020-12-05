@@ -1,7 +1,9 @@
 # University-projects
 大学期间的一些项目分享
 
-- 个人资源分享网址(MVC架构) [Resource-sharing-website](https://github.com/shiguanghai/University-projects/tree/master/Resource-sharing-website) 2019年07月 - 2020年08月
+- 个人博客网站(SSM架构) [Spring-SpringMvc-Mybatis-blog](https://github.com/shiguanghai/University-projects/tree/master/Spring-SpringMvc-Mybatis-blog) 2020年10月 - 2020年11月
+
+- 个人资源分享网站(MVC架构) [Resource-sharing-website](https://github.com/shiguanghai/University-projects/tree/master/Resource-sharing-website) 2019年07月 - 2020年08月
 
 - 次元之声(Android) [Voice-of-dimension](https://github.com/shiguanghai/University-projects/tree/master/Voice-of-dimension) 2020年5月 - 2020年7月
 
