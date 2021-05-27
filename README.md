@@ -1,6 +1,8 @@
 # University-projects
 大学期间的一些项目分享
 
+- 跨平台新闻App（React Native+Wechat）[CrossPlatform-newsApp](https://github.com/shiguanghai/University-projects/tree/master/CrossPlatform-newsApp) 2021年03月 - 2021年05月
+
 - 个人博客网站(SSM架构) [Spring-SpringMvc-Mybatis-blog](https://github.com/shiguanghai/University-projects/tree/master/Spring-SpringMvc-Mybatis-blog) 2020年10月 - 2020年11月
 
 - 个人资源分享网站(MVC架构) [Resource-sharing-website](https://github.com/shiguanghai/University-projects/tree/master/Resource-sharing-website) 2019年07月 - 2020年08月
