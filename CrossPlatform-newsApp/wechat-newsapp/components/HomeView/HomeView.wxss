@@ -1,0 +1,31 @@
+/* components/HomeView.wxss */
+.container {
+  flex: 1;
+  background-color: #F5FCFF;
+}
+.newsItem {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 10rpx;
+}
+.newsText {
+  width: 60vw;
+  height: 160rpx;
+  border-bottom-color: #dddddd;
+  border-bottom-width: 1;
+}
+.newsImag {
+  width: 210rpx;
+  height: 150rpx;
+}
+.newsTitle {
+  font-size: 26rpx;
+  font-weight: 500;
+  line-height: 30rpx;
+}
+.newsDigest {
+  font-size: 20rpx;
+  line-height: 22rpx;
+}

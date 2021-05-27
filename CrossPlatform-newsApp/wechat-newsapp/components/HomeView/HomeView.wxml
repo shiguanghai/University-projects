@@ -1,0 +1,20 @@
+<!--components/HomeView.wxml-->
+<!-- 这是自定义组件的内部WXML结构 -->
+<ScrollImage header-news="{{headerNews}}"></ScrollImage>
+<view class="container" wx:for="{{rowNews}}" wx:key="item">
+  <navigator url="../../pages/newsdetail/newsdetail?id={{item.postid}}&title={{item.title}}" open-type="navigate">
+    <view class="newsItem">
+      <image class="newsImag" src="{{item.imgsrc}}"></image>
+      <view class="newsText">
+        <view style="font-size:0">
+          <text class="newsTitle">{{item.title}}</text>
+        </view>
+        <view style="font-size:0">
+          <text class="newsDigest">{{item.digest}}</text>
+        </view>
+      </view>
+    </view>
+  </navigator>
+</view>
+<NewsDetail></NewsDetail>
+<slot></slot>

@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "DiscoverView": "../../components/DiscoverView/DiscoverView"
+  }
+}

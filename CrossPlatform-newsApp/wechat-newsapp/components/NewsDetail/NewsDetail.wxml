@@ -1,0 +1,8 @@
+<!--components/NewsDetail.wxml-->
+<view class="page-body">
+  <view class="page-section">
+    <view class="rich-text-wrp">
+      <rich-text nodes="{{detailHtml}}" bindtap="tap"></rich-text>
+    </view>
+  </view>
+</view>

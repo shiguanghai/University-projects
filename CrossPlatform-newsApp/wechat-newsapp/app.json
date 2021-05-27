@@ -1,0 +1,49 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/discover/discover",
+    "pages/message/message",
+    "pages/mine/mine",
+    "pages/newsdetail/newsdetail"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#91d6ff",
+    "navigationBarTitleText": "网易新闻",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "backgroundColor": "#91d6ff",
+    "color": "#999",
+    "selectedColor": "#FF8C00",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icons/tabbar_home@3x.png",
+        "selectedIconPath": "icons/tabbar_home_highlighted@3x.png"
+      },
+      {
+        "pagePath": "pages/discover/discover",
+        "text": "发现",
+        "iconPath": "icons/tabbar_discover.png",
+        "selectedIconPath": "icons/tabbar_discover_highlighted@2x.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "消息",
+        "iconPath": "icons/tabbar_message_center@3x.png",
+        "selectedIconPath": "icons/tabbar_message_center_highlighted@3x.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "个人",
+        "iconPath": "icons/tabbar_profile@3x.png",
+        "selectedIconPath": "icons/tabbar_profile_highlighted@3x.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

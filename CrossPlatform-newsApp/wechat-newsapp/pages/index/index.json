@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "HomeView": "../../components/HomeView/HomeView"
+  }
+}

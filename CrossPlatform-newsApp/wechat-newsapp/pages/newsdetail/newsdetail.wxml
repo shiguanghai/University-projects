@@ -1,0 +1,2 @@
+<!--pages/newsdetail/newsdetail.wxml-->
+<NewsDetail postid="{{id}}" title="{{title}}"></NewsDetail>

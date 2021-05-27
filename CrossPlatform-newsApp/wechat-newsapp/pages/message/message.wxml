@@ -1,0 +1,5 @@
+<!--pages/message/message.wxml-->
+<view>
+  <!-- 以下是对一个自定义组件的引用 -->
+  <MessageView inner-text="消息"></MessageView>
+</view>

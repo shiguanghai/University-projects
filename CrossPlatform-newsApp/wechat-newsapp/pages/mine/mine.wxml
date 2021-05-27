@@ -1,0 +1,5 @@
+<!--pages/mine/mine.wxml-->
+<view>
+  <!-- 以下是对一个自定义组件的引用 -->
+  <MineView inner-text="我的"></MineView>
+</view>

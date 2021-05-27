@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "MineView": "../../components/MineView/MineView"
+  }
+}

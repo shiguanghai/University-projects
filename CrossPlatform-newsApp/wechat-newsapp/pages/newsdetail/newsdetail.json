@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "NewsDetail": "../../components/NewsDetail/NewsDetail"
+  }
+}

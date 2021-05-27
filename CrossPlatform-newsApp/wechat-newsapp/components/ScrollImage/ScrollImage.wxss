@@ -1,0 +1,19 @@
+/* components/ScrollImage/ScrollImage.wxss */
+.banner {
+  width: 100vw;
+  height: 42vw;
+}
+.itemImage {
+  width: 100vw;
+  height: 60vw;
+}
+.bannerTitle {
+  width: 100vw;
+  height: 45rpx;
+  line-height: 45rpx;
+  color: #fff;
+  background-color: rgba(0,0,0,0.5);
+  align-items: flex-end;
+  position: absolute;
+  bottom: 0;
+}

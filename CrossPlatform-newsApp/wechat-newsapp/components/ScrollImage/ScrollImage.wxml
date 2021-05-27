@@ -1,0 +1,20 @@
+<!--components/ScrollImage/ScrollImage.wxml-->
+<view>
+  <view class="banner">
+    <swiper
+      indicator-dots="true"
+      autoplay="true"
+      interval="3000"
+      indicator-active-color="#5cb0ff"
+    >
+      <block wx:for="{{headerNews}}" wx:key="item">
+        <swiper-item>
+          <navigator url="../../pages/newsdetail/newsdetail?id={{item.postid}}&title={{item.title}}" open-type="navigate">
+            <text class="bannerTitle">{{item.title}}</text>
+            <image src="{{item.imgsrc}}" class="itemImage"></image>
+          </navigator>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+</view>
